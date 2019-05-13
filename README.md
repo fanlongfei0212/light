@@ -1,16 +1,20 @@
 # light
 
-**StringBoot 2.0 集成项目**
-**Maven 3.3.9**
-**JDK 1.8**
-**StringBoot 2.1.4.RELEASE**
-**Redis 4.0.7**
+## 简介
+
+**本项目主要进行对常用工具的集成学习，准备依次进行对 Redis、mongoDB、Elasticsearch进行集成**
+
+* StringBoot 2.0 集成项目
+* Maven 3.3.9
+* JDK 1.8
+* StringBoot 2.1.4.RELEASE
+* Redis 4.0.7
 
 | 项目名称 | 项目版本 | 修订时间 | 修订人 | 修订原因 |
 |:------:| :------: | :------: | :------: | :------: |
 | light | V 1.0.0 | 2019年05月13日17:13:59 | 范龙飞 | 初始化项目概要信息 |
 
-## 集成Redis
+### 集成Redis
 
 * 使用 RedisTemplate 的基本功能
     
