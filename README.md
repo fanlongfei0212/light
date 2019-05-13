@@ -14,11 +14,15 @@
 
 * 使用 RedisTemplate 的基本功能
     
-    *. 配置RedisTemplate的key序列化类型以及value的序列化类型
-    *. value的序列化使用Jackson进行序列化
-    *. 使用Jackson作为value的序列化时要注意LocalDateTime的序列化问题，需要进行手动配置
-    *. 具体配置代码参照 src/main/java/com.fly.learn.light.conf.redis/RedisConf 
-    *. 需要引入 commons-pool2 包
+    * 配置RedisTemplate的key序列化类型以及value的序列化类型
+    
+    * value的序列化使用Jackson进行序列化
+    
+    * 使用Jackson作为value的序列化时要注意LocalDateTime的序列化问题，需要进行手动配置
+    
+    * 具体配置代码参照 src/main/java/com.fly.learn.light.conf.redis/RedisConf 
+    
+    * 需要引入 commons-pool2 包
         ```xml
         <dependency>
             <groupId>org.apache.commons</groupId>
