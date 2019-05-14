@@ -13,8 +13,14 @@
 | 项目名称 | 项目版本 | 修订时间 | 修订人 | 修订原因 |
 |:------:| :------: | :------: | :------: | :------: |
 | light | V 1.0.0 | 2019年05月13日17:13:59 | 范龙飞 | 初始化项目概要信息 |
+| light | V 1.0.0 | 2019年05月14日15:48:05 | 范龙飞 | 资料记录 |
 
 ### 集成Redis
+
+* 参考资料
+    
+    * [https://www.cnblogs.com/ityouknow/p/5748830.html](https://www.cnblogs.com/ityouknow/p/5748830.html)
+    * [https://www.cnblogs.com/wangzhuxing/p/10198347.html](https://www.cnblogs.com/wangzhuxing/p/10198347.html)
 
 * 使用 RedisTemplate 中 ValueOperations 的基本功能
 
