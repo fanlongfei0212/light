@@ -40,4 +40,14 @@ public class RedisController {
 
         return redisService.findRedisModelParentById(id);
     }
+
+    /**
+     *@Author:Fly Created in 2019/5/14 下午3:10
+     *@Description: 按照id删除父级
+     */
+    @GetMapping(value = "/remove/parent/by/{id}")
+    public Object removeRedisModelParentById(@PathVariable("id") Integer id){
+
+        return redisService.removeRedisModelParentById(id);
+    }
 }

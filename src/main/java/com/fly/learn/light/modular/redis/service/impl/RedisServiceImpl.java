@@ -91,6 +91,14 @@ public class RedisServiceImpl implements RedisService{
         return null;
     }
 
+    @Override
+    public Object removeRedisModelParentById(Integer id) {
+
+        String removeKey = "redisModelParent" + id;
+
+        return redisTemplate.hasKey(removeKey) ? (redisTemplate.delete(removeKey) ? "ok" : "error") : "key不存在";
+    }
+
     /**
      *@Author:Fly Created in 2019/5/13 下午4:43
      *@Description: 重组子级数据

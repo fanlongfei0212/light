@@ -22,4 +22,10 @@ public interface RedisService {
      *@Description: 根据id查询父级
      */
     Object findRedisModelParentById(Integer id);
+
+    /**
+     *@Author:Fly Created in 2019/5/14 下午3:10
+     *@Description: 根据id删除父级
+     */
+    Object removeRedisModelParentById(Integer id);
 }
