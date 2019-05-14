@@ -18,7 +18,7 @@
 
 * 使用 RedisTemplate 中 ValueOperations 的基本功能
 
-**使用 ValueOperations 作为对Redis的字符串操作;如果 value 作为一个对象的的话，通常的做法是将 value 进行序列化，然后存储至Redis中**
+    **使用 ValueOperations 作为对Redis的字符串操作;如果 value 作为一个对象的的话，通常的做法是将 value 进行序列化，然后存储至Redis中**
     
     * 配置RedisTemplate的key序列化类型以及value的序列化类型
     
