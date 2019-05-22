@@ -21,3 +21,10 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
+
+#mongoDB配置
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mongo
