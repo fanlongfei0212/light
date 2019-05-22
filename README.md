@@ -44,6 +44,10 @@
         ```
 ### 集成MongoDB
 
+* 参考资料
+    
+    * [http://www.ityouknow.com/springboot/2017/05/08/spring-boot-mongodb.html](http://www.ityouknow.com/springboot/2017/05/08/spring-boot-mongodb.html)
+
 * MongoDB启动命令
 
     **指定数据存放位置、日志位置、日志方式**
