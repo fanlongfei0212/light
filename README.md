@@ -15,7 +15,7 @@
 |:------:| :------: | :------: | :------: | :------: |
 | light | V 1.0.0 | 2019年05月13日17:13:59 | 范龙飞 | 初始化项目概要信息 |
 | light | V 1.0.0 | 2019年05月14日15:48:05 | 范龙飞 | 资料记录 |
-| light | V 1.0.0 | 2019年05月22日17:52:59 | 范龙飞 | MongoTemplate 基本使用 |
+| light | V 1.0.0 | 2019年05月22日17:52:59 | 范龙飞 | Lambda测试以及MongoTemplate基本使用 |
 
 ### 集成Redis
 
@@ -57,7 +57,7 @@
     mongod --dbpath ../WorkSpace/SoftwareData/MongoDB/data --logpath ../WorkSpace/SoftwareData/MongoDB/log/mongod.log --logappend --fork
     ```
     
-* 使用 MongoTemplate
+* 使用 MongoTemplate 基本功能
     
     * 需要引入 commons-pool2 包
         ```xml
